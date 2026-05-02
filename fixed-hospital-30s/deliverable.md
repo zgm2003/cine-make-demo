@@ -57,7 +57,7 @@ Codex 不生成最终视频；最终 MP4 由 Seedance / 即梦 / 其他视频工
 
 ## AI分镜
 
-下面不是给人看的宣传文案，是给 AI 视频模型执行的分镜指令。每个镜头必须锁定景别、焦段、运镜、构图、调度、表演、光影和连续性。
+每个镜头锁定景别、焦段、运镜、构图、调度、表演、光影和连续性。
 
 ### S01｜3s｜AI_VIDEO_STORYBOARD
 
@@ -257,10 +257,10 @@ Codex 不生成最终视频；最终 MP4 由 Seedance / 即梦 / 其他视频工
 
 ## 出图清单
 
-出图模式必须按这个清单补齐图片：主角、场景、每段首帧、每段尾帧、若干 AI 分镜关键帧，以及全图缩略图。
+按这个清单补齐图片：主角、场景、每段首帧、每段尾帧、若干 AI 分镜关键帧，以及全图缩略图。
 
-- 主角/人物参考图：`storyboard-images/character-reference.png`（未提供主角图时生成，用来锁脸、发型、服装轮廓）
-- 场景图：`storyboard-images/scene-reference.png`（未提供场景图时生成，用来锁空间、光源、色调）
+- 主角/人物参考图：`storyboard-images/character-reference.png`
+- 场景图：`storyboard-images/scene-reference.png`
 - 第 1 段首帧：`storyboard-images/segment-01-start.png`
 - AI分镜关键帧：`storyboard-images/S01.png`（S01）
 - AI分镜关键帧：`storyboard-images/S02.png`（S02）
@@ -422,7 +422,7 @@ Create a clean contact sheet from all generated stills: character reference, sce
 
 ### 第 1 段：S01-S07（15s，单次生成不超过 15s / 7 个镜头）
 
-AI_VIDEO_FEED_CARD：第 1 段
+视频生成卡：第 1 段
 
 本段使用独立首帧。
 
@@ -431,8 +431,8 @@ AI_VIDEO_FEED_CARD：第 1 段
 
 上传图片：
 
-- 主角/人物参考图：`storyboard-images/character-reference.png`（未提供主角图时生成，用来锁脸、发型、服装轮廓）
-- 场景图：`storyboard-images/scene-reference.png`（未提供场景图时生成，用来锁空间、光源、色调）
+- 主角/人物参考图：`storyboard-images/character-reference.png`
+- 场景图：`storyboard-images/scene-reference.png`
 - 起始帧：`storyboard-images/segment-01-start.png`
 - `storyboard-images/S01.png`
 - `storyboard-images/S02.png`
@@ -446,7 +446,7 @@ AI_VIDEO_FEED_CARD：第 1 段
 复制提示词：
 
 ```text
-AI_VIDEO_FEED_CARD：第 1 段，只给 AI 视频模型看，不是给人看的文案。
+视频生成卡：第 1 段
 
 FORMAT：15s / 9:16 / 电影感悬疑、冷色调、克制表演 / multi-shot cinematic sequence
 
@@ -474,7 +474,7 @@ FORMAT：15s / 9:16 / 电影感悬疑、冷色调、克制表演 / multi-shot ci
 
 ### 第 2 段：S08-S14（15s，单次生成不超过 15s / 7 个镜头）
 
-AI_VIDEO_FEED_CARD：第 2 段
+视频生成卡：第 2 段
 
 上一段尾帧 = 本段首帧。
 
@@ -483,8 +483,8 @@ AI_VIDEO_FEED_CARD：第 2 段
 
 上传图片：
 
-- 主角/人物参考图：`storyboard-images/character-reference.png`（未提供主角图时生成，用来锁脸、发型、服装轮廓）
-- 场景图：`storyboard-images/scene-reference.png`（未提供场景图时生成，用来锁空间、光源、色调）
+- 主角/人物参考图：`storyboard-images/character-reference.png`
+- 场景图：`storyboard-images/scene-reference.png`
 - 起始帧：`storyboard-images/segment-01-end.png`
 - `storyboard-images/S08.png`
 - `storyboard-images/S09.png`
@@ -498,7 +498,7 @@ AI_VIDEO_FEED_CARD：第 2 段
 复制提示词：
 
 ```text
-AI_VIDEO_FEED_CARD：第 2 段，只给 AI 视频模型看，不是给人看的文案。
+视频生成卡：第 2 段
 
 FORMAT：15s / 9:16 / 电影感悬疑、冷色调、克制表演 / multi-shot cinematic sequence
 
@@ -526,8 +526,8 @@ FORMAT：15s / 9:16 / 电影感悬疑、冷色调、克制表演 / multi-shot ci
 
 ## 视觉参考
 
-- 主角/人物参考图：`storyboard-images/character-reference.png`（未提供主角图时生成，用来锁脸、发型、服装轮廓）
-- 场景图：`storyboard-images/scene-reference.png`（未提供场景图时生成，用来锁空间、光源、色调）
+- 主角/人物参考图：`storyboard-images/character-reference.png`
+- 场景图：`storyboard-images/scene-reference.png`
 
 ## 连续性注意事项
 

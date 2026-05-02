@@ -5,13 +5,13 @@
 
 ## 用户参考图
 
-- 主角/人物参考图：`storyboard-images/character-reference.png`（未提供主角图时生成，用来锁脸、发型、服装轮廓）
-- 场景图：`storyboard-images/scene-reference.png`（未提供场景图时生成，用来锁空间、光源、色调）
+- 主角/人物参考图：`storyboard-images/character-reference.png`
+- 场景图：`storyboard-images/scene-reference.png`
 
 ## 建议生成顺序
 
-- 主角/人物参考图：`storyboard-images/character-reference.png`（未提供主角图时生成，用来锁脸、发型、服装轮廓）
-- 场景图：`storyboard-images/scene-reference.png`（未提供场景图时生成，用来锁空间、光源、色调）
+- 主角/人物参考图：`storyboard-images/character-reference.png`
+- 场景图：`storyboard-images/scene-reference.png`
 - 第 1 段首帧：`storyboard-images/segment-01-start.png`
 - AI分镜关键帧：`storyboard-images/S01.png`（S01）
 - AI分镜关键帧：`storyboard-images/S02.png`（S02）
